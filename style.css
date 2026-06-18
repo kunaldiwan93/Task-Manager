@@ -8,7 +8,7 @@
 }
 
 body{
-    background:#FAFAFA;
+    background:#fafafa;
     color:#111111;
     padding:2rem 8%;
     min-height:100vh;
@@ -32,7 +32,7 @@ header h1{
 }
 
 header p{
-    color:#666;
+    color:#666666;
 }
 
 .dark header p{
@@ -118,11 +118,11 @@ select{
 input:focus,
 select:focus{
     outline:none;
-    border-color:#EC4899;
+    border-color:#48dbec;
 }
 
 #task-form button{
-    background:#EC4899;
+    background:#48dbec;
     color:white;
 }
 
@@ -132,11 +132,11 @@ select:focus{
 }
 
 .task-card{
-    border-left:4px solid #EC4899;
+    border-left:4px solid #48dbec;
 }
 
 .dark .task-card{
-    border-left:4px solid #F472B6;
+    border-left:4px solid #72f0f4;
 }
 
 .task-card:hover{
@@ -166,7 +166,7 @@ select:focus{
 }
 
 .edit-btn{
-    background:#EC4899;
+    background:#48dbec;
     color:white;
 }
 
@@ -181,7 +181,7 @@ select:focus{
 }
 
 .delete-btn{
-    background:#EF4444;
+    background:#44e1ef;
     color:white;
 }
 
@@ -213,24 +213,24 @@ select:focus{
 }
 
 #grandparent{
-    background:#FFE4F1;
+    background:#e4fdff;
     padding:40px;
     border-radius:24px;
 }
 
 #parent{
-    background:#FBCFE8;
+    background:#cff5fb;
     padding:35px;
     border-radius:20px;
     margin-top:20px;
 }
 
 .dark #grandparent{
-    background:#2A1621;
+    background:#16272a;
 }
 
 .dark #parent{
-    background:#3D1F31;
+    background:#325e5f;
 }
 
 #child{
@@ -242,11 +242,11 @@ select:focus{
     margin-top:20px;
     padding:15px;
     border-radius:12px;
-    background:#F5F5F5;
+    background:#89fcfc;
 }
 
 .dark #event-output{
-    background:#222;
+    background:#233032;
 }
 
 #render-pipeline{
@@ -268,11 +268,11 @@ select:focus{
 
 .dark .pipeline-box{
     background:#222;
-    border:1px solid #EC4899;
+    border:1px solid #48dbec;
 }
 
 .arrow{
-    color:#EC4899;
+    color:#48dbec;
     font-size:1.5rem;
     font-weight:bold;
 }
