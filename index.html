@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task Manager</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Task Manager</h1>
+    </header>
+    <section id="theme-section">
+        <button id="theme-toggle">
+            Toggle Theme
+        </button>
+    </section>
+    <section id="task-form-section">
+        <section id="task-form-section">
+            <h2>Add New Task</h2>
+            <form id="task-form">
+                <input type="text" id="task-input" placeholder="Enter task title" required>
+                <select id="task-category">
+                    <option value="Study">
+                        Study
+                    </option>
+                    <option value="Work">
+                        Work
+                    </option>
+                    <option value="Personal">
+                        Personal
+                    </option>
+                </select>
+
+                <button type="submit">
+                    Add Task
+                </button>
+
+            </form>
+            <div id="search-container">
+                <input type="text" id="search-input" placeholder="Search tasks...">
+            </div>
+            <div id="filter-container">
+                <label for="filter-category">
+                    Filter:
+                </label>
+                <select id="filter-category">
+                    <option value="All">
+                        All
+                    </option>
+                    <option value="Study">
+                        Study
+                    </option>
+                    <option value="Work">
+                        Work
+                    </option>
+                    <option value="Personal">
+                        Personal
+                    </option>
+                </select>
+
+            </div>
+        </section>
+    </section>
+
+    <section id="task-stats">
+        <p>
+            Completed:
+            <span id="completed-count">
+                0
+            </span>
+        </p>
+        <p>
+            Pending:
+            <span id="pending-count">0</span>
+        </p>
+        <button id="clear-all">
+            Clear All Tasks
+        </button>
+    </section>
+
+    <section id="task-container"></section>
+
+    <section id="event-demo">
+        <h2>Event Propagation Demo</h2>
+        <div id="grandparent">
+            Grandparent
+            <div id="parent">
+                Parent
+                <button id="child">Click Me</button>
+            </div>
+            <div id="event-output">Click the button to see propagation!</div>
+        </div>
+    </section>
+    <section id="render-pipeline">
+        <h2>Browser Rendering Pipeline</h2>
+
+        <div class="pipeline-box">HTML</div>
+        <div class="arrow">↓</div>
+
+        <div class="pipeline-box">Parsing</div>
+        <div class="arrow">↓</div>
+
+        <div class="pipeline-box">Tokenization</div>
+        <div class="arrow">↓</div>
+
+        <div class="pipeline-box">DOM Tree</div>
+        <div class="arrow">↓</div>
+
+        <div class="pipeline-box">CSSOM Tree</div>
+        <div class="arrow">↓</div>
+
+        <div class="pipeline-box">DOM Tree + CSSOM Tree</div>
+        <div class="arrow">↓</div>
+
+        <div class="pipeline-box">Render Tree</div>
+        
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
